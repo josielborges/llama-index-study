@@ -63,6 +63,13 @@ pip install -r requirements.txt
    GROQ_API_KEY=your-groq-api-key
    ```
 
+## 📖 What I've Learned So Far
+
+* Configuring an LLM for data interaction using a Groq API key
+* Exploring LlamaIndex capabilities to make natural language queries on structured data
+* Using PandasQueryEngine to transform natural language queries into Python code operations
+* Validating and interpreting PandasQueryEngine responses by comparing them with direct Pandas operations
+
 ## 🔍 Explored Features
 
 - Document indexing with LlamaIndex
