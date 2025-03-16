@@ -34,8 +34,8 @@ python-dotenv==1.0.1
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/josielborges/llama-index-study.git
-cd llama-index-study
+git clone https://github.com/your-username/repository-name.git
+cd repository-name
 ```
 
 2. Create a virtual environment:
@@ -79,6 +79,10 @@ pip install -r requirements.txt
 * Processing and simplifying query outputs
 * Controlling language settings for responses
 
+### Lesson 3
+* Building query pipelines to streamline data processing and analysis
+* Creating sequential processing chains for complex queries
+
 ## 🔍 Explored Features
 
 - Document indexing with LlamaIndex
@@ -87,6 +91,7 @@ pip install -r requirements.txt
 - Data visualization with Matplotlib
 - Natural language enhancement of query results
 - Language control for outputs
+- Query pipeline construction and optimization
 - Interface generation with Gradio
 - Exporting results to PDF
 
