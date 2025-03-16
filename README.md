@@ -12,6 +12,7 @@ This is a personal learning and experimentation project with LlamaIndex, explori
 - **LlamaIndex**: Framework for creating applications based on LLMs and custom data
 - **Groq**: Integration with the Groq API for access to language models
 - **Pandas**: Data manipulation and analysis
+- **Matplotlib**: Data visualization and plotting
 - **Gradio**: Creation of user interfaces for demonstrations
 - **FPDF**: Generation of PDF documents
 - **python-dotenv**: Management of environment variables
@@ -25,6 +26,7 @@ llama-index-llms-groq==0.3.1
 llama-index-experimental==0.5.4
 gradio==5.21.0
 fpdf==1.7.2
+matplotlib==3.10.1
 python-dotenv==1.0.1
 ```
 
@@ -65,19 +67,27 @@ pip install -r requirements.txt
 
 ## 📖 What I've Learned So Far
 
+### Lesson 1
 * Configuring an LLM for data interaction using a Groq API key
 * Exploring LlamaIndex capabilities to make natural language queries on structured data
 * Using PandasQueryEngine to transform natural language queries into Python code operations
 * Validating and interpreting PandasQueryEngine responses by comparing them with direct Pandas operations
+
+### Lesson 2
+* Creating data visualizations and plotting graphs with Matplotlib
+* Enhancing output with more detailed natural language descriptions
+* Processing and simplifying query outputs
+* Controlling language settings for responses
 
 ## 🔍 Explored Features
 
 - Document indexing with LlamaIndex
 - Creation of indexes for efficient querying
 - LLM queries using custom data
+- Data visualization with Matplotlib
+- Natural language enhancement of query results
+- Language control for outputs
 - Interface generation with Gradio
 - Exporting results to PDF
 
 ## 🌟 Examples
-
-[TODO]

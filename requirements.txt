@@ -5,3 +5,4 @@ llama-index-experimental==0.5.4
 gradio==5.21.0
 fpdf==1.7.2
 python-dotenv==1.0.1
+matplotlib==3.10.1
