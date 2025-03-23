@@ -82,6 +82,14 @@ pip install -r requirements.txt
 ### Lesson 3
 * Building query pipelines to streamline data processing and analysis
 * Creating sequential processing chains for complex queries
+* Implementing multi-stage data transformation pipelines
+
+### Lesson 4
+* Developing simple user interfaces with Gradio
+* Connecting LlamaIndex query engines to interactive web interfaces
+* Creating intuitive input forms for natural language queries
+* Displaying query results and visualizations in a user-friendly format
+* Generating a PDF file with the history of user interactions
 
 ## 🔍 Explored Features
 
@@ -92,7 +100,7 @@ pip install -r requirements.txt
 - Natural language enhancement of query results
 - Language control for outputs
 - Query pipeline construction and optimization
-- Interface generation with Gradio
+- Interactive web interface development with Gradio
 - Exporting results to PDF
 
 ## 🌟 Examples
