@@ -1,8 +1,14 @@
-pandas==2.2.3
 llama-index==0.12.24
 llama-index-llms-groq==0.3.1
 llama-index-experimental==0.5.4
+llama-index-embeddings-huggingface==0.5.2
 gradio==5.21.0
 fpdf==1.7.2
 python-dotenv==1.0.1
+
+# With Pandas
+pandas==2.2.3
 matplotlib==3.10.1
+
+# With DB
+SQLAlchemy==2.0.39
