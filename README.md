@@ -103,12 +103,18 @@ pip install -r requirements.txt
 * Configuring LlamaIndex with specific models and embeddings
 * Performing natural language queries with a LlamaIndex engine
 
+#### Lesson 2
+* Providing database table context to improve query accuracy
+* Using language models to automatically generate descriptions for tables and columns
+* Updating schema lists in LlamaIndex with detailed descriptions for more precise queries
+
 ## 🔍 Explored Features
 
 - Document and database indexing with LlamaIndex
 - Creation of indexes for efficient querying
 - LLM queries using custom data
 - SQL database connectivity
+- Schema enrichment with automated descriptions
 - Data visualization with Matplotlib
 - Natural language enhancement of query results
 - Language control for outputs
