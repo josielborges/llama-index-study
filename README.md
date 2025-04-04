@@ -24,12 +24,11 @@ A personal learning project diving deep into LlamaIndex capabilities, covering s
 llama-index==0.12.24
 llama-index-llms-groq==0.3.1
 llama-index-experimental==0.5.4
-llama-index-embeddings-huggingface==0.5.2
 gradio==5.21.0
 fpdf==1.7.2
-python-dotenv==1.0.1
 pandas==2.2.3
 matplotlib==3.10.1
+python-dotenv==1.0.1
 SQLAlchemy==2.0.39
 ```
 
@@ -108,6 +107,20 @@ pip install -r requirements.txt
 * Using language models to automatically generate descriptions for tables and columns
 * Updating schema lists in LlamaIndex with detailed descriptions for more precise queries
 
+#### Lesson 3
+* Building a customized database query assistant pipeline using Llama Index
+* Creating personalized prompts for LLMs to develop company-specific assistants
+* Including table context and user requests in the first prompt
+* Using PromptTemplate class from Llama Index for prompt templates
+* Utilizing FnComponent class to encapsulate Python functions
+* Extracting SQL queries from LLM responses using string operations
+* Using SQLRetriever class to execute SQL queries and get results
+* Specifying the second prompt in a query pipeline
+* Configuring a query pipeline with the QueryPipeline class
+* Using InputComponent to process user inputs
+* Specifying the sequence of actions between modules in a Query Pipeline
+* Testing and observing step-by-step module operation in a query pipeline
+
 ## 🔍 Explored Features
 
 - Document and database indexing with LlamaIndex
@@ -115,9 +128,12 @@ pip install -r requirements.txt
 - LLM queries using custom data
 - SQL database connectivity
 - Schema enrichment with automated descriptions
+- Custom query pipeline construction for database interactions
+- Prompt engineering and template creation
+- SQL query extraction and execution
+- Component-based pipeline architecture
 - Data visualization with Matplotlib
 - Natural language enhancement of query results
 - Language control for outputs
-- Query pipeline construction and optimization
 - Interactive web interface development with Gradio
 - Exporting results to PDF
