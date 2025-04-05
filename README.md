@@ -15,6 +15,7 @@ A personal learning project diving deep into LlamaIndex capabilities, covering s
 - **SQLAlchemy**: SQL database connectivity and ORM
 - **Matplotlib**: Data visualization and plotting
 - **Gradio**: Creation of user interfaces for demonstrations
+- **Hugging Face Spaces**: Hosting platform for ML applications
 - **FPDF**: Generation of PDF documents
 - **python-dotenv**: Management of environment variables
 
@@ -24,11 +25,12 @@ A personal learning project diving deep into LlamaIndex capabilities, covering s
 llama-index==0.12.24
 llama-index-llms-groq==0.3.1
 llama-index-experimental==0.5.4
+llama-index-embeddings-huggingface==0.5.2
 gradio==5.21.0
 fpdf==1.7.2
+python-dotenv==1.0.1
 pandas==2.2.3
 matplotlib==3.10.1
-python-dotenv==1.0.1
 SQLAlchemy==2.0.39
 ```
 
@@ -121,6 +123,12 @@ pip install -r requirements.txt
 * Specifying the sequence of actions between modules in a Query Pipeline
 * Testing and observing step-by-step module operation in a query pipeline
 
+#### Lesson 4
+* Using Gradio to develop interactive web applications in Python
+* Integrating SQL query assistants with a chat interface using Gradio
+* Using Hugging Face Spaces to host and share interactive web applications
+* Protecting sensitive information using variables and secrets in Hugging Face Spaces
+
 ## 🔍 Explored Features
 
 - Document and database indexing with LlamaIndex
@@ -136,4 +144,6 @@ pip install -r requirements.txt
 - Natural language enhancement of query results
 - Language control for outputs
 - Interactive web interface development with Gradio
+- Web application deployment on Hugging Face Spaces
+- Secure handling of API keys and sensitive data
 - Exporting results to PDF
